@@ -1,0 +1,65 @@
+.mainContainer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+
+.contactRight{
+    text-align: center;
+}
+
+
+h1#contact{
+    color:white;
+}
+
+#street{
+    color: white;
+    font-size: 16px;
+}
+
+#emailText{
+    color:white;
+    font-size: 16px;
+}
+
+#numberText{
+    color:white;
+    font-size: 16px;
+}
+
+
+
+input.input1,input.input2,input.input5 {
+    margin:4px 1px;
+    width: 85%;
+    height:50px;
+    background-color:black;
+    border: 1px solid white;
+    font-size: 16px;
+}
+input.input3,input.input4 {
+    width: 42%;
+    margin:4px 2px;
+    height:50px;
+    background-color:black;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+textarea#areaInput {
+    font-size: 16px;
+    margin:4px 1px;
+    width: 85%;
+    height: 129px;
+    background-color:black;
+    border: 1px solid white;
+    
+}
+input.button{
+    float: right;
+    margin-right: 15%;
+    border:1px solid white;
+}

@@ -1,13 +1,12 @@
 import React from 'react';
-import NavBar from './components/Navigations';
-// import Home from './components/Home';
-import Bio from './components/Bio';
+import Contact from './components/contact';
+
 
 function App() {
+
 	return (
 		<div className="app">
-			<NavBar />
-			<Bio/>
+			<Contact/>
 		</div>
 	);
 }

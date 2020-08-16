@@ -27,14 +27,10 @@ const Bio = () => {
 			</div>
 			<Slide>
 				<div className="each-slide">
-					<div style={{ backgroundImage: `url(${slideImages[0]})` }}>
-						<span>Slide 1</span>
-					</div>
+					<div style={{ backgroundImage: `url(${slideImages[0]})` }} />
 				</div>
 				<div className="each-slide">
-					<div style={{ backgroundImage: `url(${slideImages[1]})` }}>
-						<span>Slide 2</span>
-					</div>
+					<div style={{ backgroundImage: `url(${slideImages[1]})` }} />
 				</div>
 			</Slide>
 		</div>
