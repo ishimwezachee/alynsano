@@ -1,12 +1,13 @@
 import React from 'react';
-import Contact from './components/contact';
+import Subscribe from '../src/components/subscribe';
+import Icon from './components/test';
 
 
 function App() {
 
 	return (
 		<div className="app">
-			<Contact/>
+			<Subscribe/>
 		</div>
 	);
 }
