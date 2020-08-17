@@ -7,10 +7,11 @@ const Bio = () => {
 		'https://pbs.twimg.com/profile_images/1249775650438873091/fi7Yk90O_400x400.jpg',
 		'https://imvahonshya.co.rw/wp-content/uploads/2019/09/IMG-20180731-WA0020-1.jpg'
 	];
+	
 
 	return (
 		<div>
-			<div className="head">
+			<div className="head" >
 				<h1 className="textHead" style={{ color: 'white' }}>
 					ABOUT ALINE SANO
 				</h1>

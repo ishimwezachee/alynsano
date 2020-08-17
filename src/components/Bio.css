@@ -1,19 +1,29 @@
+
+@font-face {
+	font-family: "plaFairDisplay";
+	src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+  }
+
+  
 .head {
 	text-align: center;
     background-color: black;
-    padding: 20px 300px 5px 300px;
+    padding: 20px 27% 5px 27%;
     line-height: 2;
     
 }
 h1.textHead {
-    font-size: 33px;
+    font-size: 37px;
+    font-family: "plaFairDisplay";
 }
 .textHead{
     padding:20px 1px;
 }
 
 #text1,#text2{
-    font-size: 15px;
+    font-size: 18px;
+    font-family: "OpenSans";
+   
 }
 
 .each-slide > div {
@@ -21,7 +31,7 @@ h1.textHead {
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 600px;
+    height: 500px;
   }
   
   .each-slide span {

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import GoogleFontLoader from 'react-google-font-loader';
+import { Link } from 'react-scroll';
+
+import './navigation.css'
 
 const Example = (props) => {
 	const [ isOpen, setIsOpen ] = useState(false);
@@ -24,8 +27,8 @@ const Example = (props) => {
 			/>
 
 			<div style={styles.navbar}>
-				<Row style={{ paddingTop: 13, paddingBottom: 13 }}>
-					<Col>
+				<Row style={{ paddingTop: 13, paddingBottom: 13 }} >
+					<Col xs="8">
 						<Navbar light expand="md">
 							<NavbarBrand style={styles.logo} href="/">
 								ALINE SANO
@@ -38,27 +41,23 @@ const Example = (props) => {
 							<Collapse isOpen={isOpen} navbar>
 								<Nav className="mr-auto" navbar>
 									<NavItem>
-										<NavLink style={styles.navtabs} href="#">
+										<NavLink className="top" style={styles.navtabs} href="#">
 											Home
 										</NavLink>
 									</NavItem>
+				
 									<NavItem>
-										<NavLink style={styles.navtabs} href="#">
-											MusicPlayer
-										</NavLink>
-									</NavItem>
-									<NavItem>
-										<NavLink style={styles.navtabs} href="#">
+										<NavLink className="top" style={styles.navtabs} href="#">
 											Bio
 										</NavLink>
 									</NavItem>
 									<NavItem>
-										<NavLink style={styles.navtabs} href="#">
+										<NavLink className="top" style={styles.navtabs} href="#">
 											Contact
 										</NavLink>
 									</NavItem>
 									<NavItem>
-										<NavLink style={styles.navtabs} href="#">
+										<NavLink className="top" style={styles.navtabs} href="#">
 											Subscribe
 										</NavLink>
 									</NavItem>

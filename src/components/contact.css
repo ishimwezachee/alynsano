@@ -1,3 +1,15 @@
+
+
+@font-face {
+	font-family: "plaFairDisplay";
+	src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+  }
+
+  @font-face {
+	font-family: "LibreCaslonDisplay";
+	src: url("../fonts/OpenSans-SemiBold.ttf");
+  }
+
 .mainContainer {
 	background-color: black;
 	display: flex;
@@ -12,25 +24,31 @@
 
 h1#contact {
 	color: white;
+	font-family: "plaFairDisplay";
 }
 
 #street {
 	color: white;
 	font-size: 16px;
+	font-family: "LibreCaslonDisplay";
+	
 }
 
 #emailText {
 	color: white;
 	font-size: 16px;
+	font-family: "LibreCaslonDisplay";
+	
 }
 
 #numberText {
 	color: white;
 	font-size: 16px;
+
 }
 
-input.input1,
-input.input2,
+input.inputOne,
+input.inputTwo,
 input.input5 {
 	margin: 4px 0px;
 	width: 100%;

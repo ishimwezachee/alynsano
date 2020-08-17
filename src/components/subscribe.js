@@ -5,7 +5,7 @@ import './subscribe.css';
 
 const Subscribe = () => {
 	return (
-		<div className="mainContainer">
+		<div className="HeadContainer">
 			<form action="#">
 				<div className="formSection">
 					<div className="upperInput">
@@ -14,8 +14,8 @@ const Subscribe = () => {
 						<input type="text" className="input1" name="Name" placeholder="Email Address" />
 						<p className="submitOne">submit</p>
 					</div>
-					
-                    <div className="lowerInnput">
+
+					<div className="lowerInnput">
 						<p id="form2">Subscribe Form</p>
 						<div>
 							<input type="text" className="input2" name="email" placeholder="Email Address" />
@@ -28,7 +28,7 @@ const Subscribe = () => {
 							<SocialMediaIconsReact icon="facebook" backgroundColor="#000" url="#" />
 						</div>
 						<div id="icon">
-							<SocialMediaIconsReact icon="twitter" backgroundColor="#000" url="#" />
+							<SocialMediaIconsReact icon="youtube-play" backgroundColor="#000" url="#" />
 						</div>
 						<div id="icon">
 							<SocialMediaIconsReact icon="linkedin" backgroundColor="#000" url="#" />
@@ -37,9 +37,11 @@ const Subscribe = () => {
 							<SocialMediaIconsReact icon="instagram" backgroundColor="#000" url="#" />
 						</div>
 					</div>
-				
-                </div>
+				</div>
 			</form>
+			<div classNme="Lastfooter">
+				<p id="footerText">©2020 by zachee ishimwe</p>
+			</div>
 		</div>
 	);
 };

@@ -1,4 +1,10 @@
-.mainContainer{
+
+  @font-face {
+	font-family: "Libre";
+	src: url("../fonts/OpenSans-Italic.ttf");
+	/* font-style: normal; */
+  }
+.HeadContainer{
     background-color: black;
 }
 
@@ -66,3 +72,14 @@ div#icon {
 }
 
 
+p#footerText {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-bottom: 17px;
+}
+p#subscrbeText,#stayUpdate #form2{
+    font-family: "Libre";
+    
+}
