@@ -27,7 +27,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
+  "eslintConfig": { 
     "extends": "react-app"
   },
   "browserslist": {
