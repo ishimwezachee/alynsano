@@ -1,16 +1,18 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 import './Bio.css';
 
-const Bio = () => {
+const Bio = ({id}) => {
 	const slideImages = [
-		'https://pbs.twimg.com/profile_images/1249775650438873091/fi7Yk90O_400x400.jpg',
-		'https://imvahonshya.co.rw/wp-content/uploads/2019/09/IMG-20180731-WA0020-1.jpg'
+		'https://inyarwanda.com/app/webroot/img/202005/images/san-2315171588930919.jpg',
+		'https://imvahonshya.co.rw/wp-content/uploads/2019/09/IMG-20180731-WA0020-1.jpg',
+		'https://prd-rwanda-ge.s3.amazonaws.com/images/IMG-ARTICLE-ALINE_SANO-002.width-480.format-jpeg.jpg'
 	];
 	
 
 	return (
-		<div>
+		<div id={id}>
 			<div className="head" >
 				<h1 className="textHead" style={{ color: 'white' }}>
 					ABOUT ALINE SANO
@@ -32,6 +34,9 @@ const Bio = () => {
 				</div>
 				<div className="each-slide">
 					<div style={{ backgroundImage: `url(${slideImages[1]})` }} />
+				</div>
+				<div className="each-slide">
+					<div style={{ backgroundImage: `url(${slideImages[2]})` }} />
 				</div>
 			</Slide>
 		</div>

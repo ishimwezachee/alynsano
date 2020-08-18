@@ -79,7 +79,7 @@ p#footerText {
     margin-bottom: 0px;
     padding-bottom: 17px;
 }
-p#subscrbeText,#stayUpdate #form2{
+p#subscrbeText,#stayUpdate, #form2{
     font-family: "Libre";
     
 }

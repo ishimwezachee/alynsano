@@ -4,12 +4,12 @@ import 'aos/dist/aos.css';
 
 import './contact.css';
 
-const Contact = () => {
+const Contact = ({id}) => {
 	useEffect(() => {
 		Aos.init({ duration: 2000 })
 	  }, [])
 	return (
-		<div className="mainContainer">
+		<div className="mainContainer" id={id}>
 			<div className="contactRight" data-aos="fade-right">
 				<h1 id="contact">CONTACT</h1>
 				<p id="street">500 Terry Francois Street San Francisco,CA9988</p>

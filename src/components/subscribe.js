@@ -3,9 +3,9 @@ import { SocialMediaIconsReact } from 'social-media-icons-react';
 
 import './subscribe.css';
 
-const Subscribe = () => {
+const Subscribe = ({id}) => {
 	return (
-		<div className="HeadContainer">
+		<div className="HeadContainer" id={id}>
 			<form action="#">
 				<div className="formSection">
 					<div className="upperInput">
@@ -31,7 +31,7 @@ const Subscribe = () => {
 							<SocialMediaIconsReact icon="youtube-play" backgroundColor="#000" url="#" />
 						</div>
 						<div id="icon">
-							<SocialMediaIconsReact icon="linkedin" backgroundColor="#000" url="#" />
+							<SocialMediaIconsReact icon="twitter" backgroundColor="#000" url="#" />
 						</div>
 						<div id="icon">
 							<SocialMediaIconsReact icon="instagram" backgroundColor="#000" url="#" />
@@ -40,7 +40,7 @@ const Subscribe = () => {
 				</div>
 			</form>
 			<div classNme="Lastfooter">
-				<p id="footerText">©2020 by zachee ishimwe</p>
+				<p id="footerText">&copy; 2020 Copyright , All rights reserved.</p>
 			</div>
 		</div>
 	);

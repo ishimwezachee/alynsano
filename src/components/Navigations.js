@@ -3,15 +3,15 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Ro
 import GoogleFontLoader from 'react-google-font-loader';
 import { Link } from 'react-scroll';
 
-import './navigation.css'
+import './navigation.css';
 
-const Example = (props) => {
+const Example = ({ id }) => {
 	const [ isOpen, setIsOpen ] = useState(false);
 
 	const toggle = () => setIsOpen(!isOpen);
 
 	return (
-		<div>
+		<div className="navPositioning">
 			<GoogleFontLoader
 				fonts={[
 					{
@@ -26,12 +26,12 @@ const Example = (props) => {
 				subsets={[ 'cyrillic-ext', 'greek' ]}
 			/>
 
-			<div style={styles.navbar}>
-				<Row style={{ paddingTop: 13, paddingBottom: 13 }} >
+			<div style={styles.navbar} id={id}>
+				<Row style={{ paddingTop: 13, paddingBottom: 13 }}>
 					<Col xs="8">
 						<Navbar light expand="md">
 							<NavbarBrand style={styles.logo} href="/">
-								ALINE SANO
+								ALYN SANO
 							</NavbarBrand>
 						</Navbar>
 					</Col>
@@ -42,23 +42,59 @@ const Example = (props) => {
 								<Nav className="mr-auto" navbar>
 									<NavItem>
 										<NavLink className="top" style={styles.navtabs} href="#">
-											Home
+											<Link
+												activeClass="active"
+												to="section1"
+												spy={true}
+												smooth={true}
+												offset={0}
+												duration={500}
+											>
+												Home
+											</Link>
 										</NavLink>
 									</NavItem>
-				
+
 									<NavItem>
 										<NavLink className="top" style={styles.navtabs} href="#">
-											Bio
+											<Link
+												activeClass="active"
+												to="section2"
+												spy={true}
+												smooth={true}
+												offset={0}
+												duration={500}
+											>
+												Bio
+											</Link>
 										</NavLink>
 									</NavItem>
 									<NavItem>
 										<NavLink className="top" style={styles.navtabs} href="#">
-											Contact
+											<Link
+												activeClass="active"
+												to="section3"
+												spy={true}
+												smooth={true}
+												offset={0}
+												duration={500}
+											>
+												Contact
+											</Link>
 										</NavLink>
 									</NavItem>
 									<NavItem>
 										<NavLink className="top" style={styles.navtabs} href="#">
-											Subscribe
+											<Link
+												activeClass="active"
+												to="section4"
+												spy={true}
+												smooth={true}
+												offset={0}
+												duration={500}
+											>
+												Subscribe
+											</Link>
 										</NavLink>
 									</NavItem>
 								</Nav>
@@ -73,7 +109,7 @@ const Example = (props) => {
 
 const styles = {
 	navbar: {
-		backgroundColor: 'black'
+		backgroundColor: 'black',
 	},
 	navtabs: {
 		color: 'white',
