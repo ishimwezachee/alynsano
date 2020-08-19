@@ -15,10 +15,10 @@ const Bio = ({id}) => {
 		<div id={id}>
 			<div className="head" >
 				<h1 className="textHead" style={{ color: 'white' }}>
-					ABOUT ALINE SANO
+					ABOUT ALYN SANO
 				</h1>
 				<p id="text1" style={{ color: 'white' }}>
-					Aline saano has always been musically gifted. Since they were young, they have loved the limelight
+					Alyn sano has always been musically gifted. Since they were young, they have loved the limelight
 					and were always singing, performing and playing a variety of instruments. However, it wasn’t until
 					after undergoing some major upheavals in their life that they became a professional Musician.
 				</p>
