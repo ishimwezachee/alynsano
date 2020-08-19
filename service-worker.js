@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/alynsano/precache-manifest.afca5cb05d44d909e2a4f440bb0a88d1.js"
+  "/alynsano/precache-manifest.56f3eb6cfea7e83047c80d6ad27b47f9.js"
 );
 
 self.addEventListener('message', (event) => {
