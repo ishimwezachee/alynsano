@@ -41,5 +41,12 @@ h1.headName {
 #music{
     color:white;
 	font-size:50;
-	
+}
+
+div#iconYoutbe{
+	position: absolute;
+	top: 33%;
+	left:50%;
+	overflow: hidden;
+	z-index: 1;
 }
