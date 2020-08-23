@@ -18,12 +18,12 @@ const Bio = ({id}) => {
 					ABOUT ALYN SANO
 				</h1>
 				<p id="text1" style={{ color: 'white' }}>
-					Alyn sano has always been musically gifted. Since they were young, they have loved the limelight
-					and were always singing, performing and playing a variety of instruments. However, it wasn’t until
-					after undergoing some major upheavals in their life that they became a professional Musician.
+					Alyn sano has always been musically gifted. Since she was young, she has loved the limelight
+					and was always singing, performing and playing a variety of instruments. However, it wasn’t until
+					after undergoing some major upheavals in her life that she became a professional Musician.
 				</p>
 				<p id="text2" style={{ color: 'white' }}>
-					Throughout the course of their musical career, they have had the support of dedicated fans from all
+					Throughout the course of her musical career, tshe has had the support of dedicated fans from all
 					walks of life as they perform and record studio albums. Feel free to reach out to learn about how to
 					collaborate.
 				</p>
